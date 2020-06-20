@@ -443,7 +443,10 @@ Returns a random questions within the given category, if provided, and that is n
     ```
     {
         previous_questions: [], 
-        quiz_category: {type: "Sports", id: "6"}
+        quiz_category: {
+            type: "Sports", 
+            id: "6"
+        }
     }
 
     ```
